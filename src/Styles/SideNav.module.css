@@ -1,0 +1,24 @@
+.sidenavContainer {
+  width: 200px;
+  height: 100vh; /* Full höjd på sidan */
+  background-color: #f0f0f0;
+  padding: 20px;
+  position: fixed; /* Fixerad position för att alltid synas */
+  top: 0;
+  left: 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.logoutButton {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;  /* Full bredd i navmenyn */
+}
+
+.logoutButton:hover {
+  background-color: #ff3333;
+}
