@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import styles from '../styles/SideNav.module.css';
+import styles from '../Styles/SideNav.module.css';
 
 export default function SideNav() {
   const navigate = useNavigate();

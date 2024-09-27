@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import DOMPurify from 'dompurify';
 import { useNavigate } from 'react-router-dom';
-import styles from '../styles/Chat.module.css';  // Importera modulär CSS
+import styles from '../Styles/Chat.module.css';  // Importera modulär CSS
 import SideNav from './SideNav';  // Importera SideNav
 
 export default function Chat() {
