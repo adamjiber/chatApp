@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 import { useNavigate, Link } from 'react-router-dom';  // Importera Link för navigering till Register-sidan
-import styles from '../styles/Login.module.css';  // Importera modulär CSS
+import styles from '../Styles/Login.module.css';  // Importera modulär CSS
 
 export default function Login() {
   const [username, setUsername] = useState('');
